@@ -1,13 +1,6 @@
-use crate::abi::lendergroup_contract::functions;
-use crate::{abi, eth };
+use crate::abi;
 use ethabi::Address;
 use ethabi::ethereum_types::H160;
-use prost::Message;
-
-use substreams::log;
-use substreams::scalar::BigInt;
-use substreams::Hex;
-use substreams_ethereum::rpc::RpcBatch;
 
 
 /*

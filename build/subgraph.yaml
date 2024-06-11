@@ -1,9 +1,8 @@
 specVersion: 0.0.6
 description: lender-group-substream substreams based subgraph
-repository: # fill in with git remote url
+repository: null
 schema:
-  file: ./schema.graphql
-
+  file: schema.graphql
 dataSources:
   - kind: substreams
     name: lender-group-substream
@@ -11,7 +10,7 @@ dataSources:
     source:
       package:
         moduleName: graph_out
-        file: lender-group-substream-v0.1.0.spkg
+        file: lender-group-substream\lender-group-substream-v0.1.0.spkg
     mapping:
       kind: substreams/graph-entities
       apiVersion: 0.0.5
